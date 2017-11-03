@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<style>
+table,th,td{
+border:1px solid black;
+
+}
+table { border-collapse: collapse;
+ }
+ 
+ </style>
+
+</head>
+<body>
+
+<h1> Make a form as shown in image </h1>
+<p> <img src="form.PNG" alt="form"/></p>
+<table>
+<tr>
+<th>Name</th>
+<th colspan="2"> Value</th>
+</tr>
+<tr><td>First name:</td> <
+<td><input type="text" /></td>
+</tr>
+<tr><td>Last name:</td><td><input type="text" /></td></tr>
+<tr><td>Gender</td><td><input type="radio" name="Man" id="Man" />
+    <label for="Man">Man</label> </br>
+<input type="radio" name="Woman" id="Woman" />
+    <label for="Woman">Woman</label>
+    </td>
+</tr>
+<tr><td>Check all that apply</td>
+<td><input type="checkbox" name="toppings" value="I have a bike" id="I have a bike" />
+    <label for="I have a bike">I have a bike</label> </br>
+<input type="checkbox" name="toppings" value="I have a car" id="I have a car" />
+    <label for="I have a car">I have a car</label>
+</td>
+</tr>
+<tr><td>Comment</td><td><textarea rows="2" cols="20">
+</textarea>
+</td></tr>
+<tr><th colspan="2"><button onclick="alert('Hello!');">Submit</button>
+ </th></tr>
+
+</table>
+
+</body>
+
+</html>
